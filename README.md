@@ -1,8 +1,16 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yashjoshi08/yashjoshi08/main/assets/devops-banner.svg" alt="Yash Joshi — DevOps Engineer" width="100%" />
+</p>
+
 # Yash Joshi
 
 **DevOps Engineer · AWS Cloud · Kubernetes · Platform & Infrastructure Automation**
 
-[Portfolio](https://yash-joshi.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/yash-joshi-073290251/) · [GitHub](https://github.com/yashjoshi08)
+<p align="center">
+  <a href="https://yash-joshi.vercel.app/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/yash-joshi-073290251/">LinkedIn</a> ·
+  <a href="https://github.com/yashjoshi08">GitHub</a>
+</p>
 
 ---
 
@@ -11,6 +19,10 @@
 I'm a DevOps Engineer with **3+ years of experience** working across AWS infrastructure, Kubernetes platforms, CI/CD automation, Infrastructure as Code, and production observability.
 
 I focus on the engineering behind reliable releases: repeatable infrastructure, secure delivery pipelines, healthy workloads, and useful monitoring.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yashjoshi08/yashjoshi08/main/assets/delivery-workflow.svg" alt="DevOps delivery workflow: source, CI pipeline, security checks, registry, deployment and observability" width="100%" />
+</p>
 
 ---
 
