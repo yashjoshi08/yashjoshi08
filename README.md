@@ -108,6 +108,8 @@ Node.js · Docker · Jenkins · Amazon ECR · EKS
 
 If you're working on AWS, Kubernetes, CI/CD, or platform engineering, let's connect.
 
+- **Email:** [joshiyj08@gmail.com](mailto:joshiyj08@gmail.com)
+- **Phone:** [+91 9607203556](tel:+919607203556)
 - **Portfolio:** [yash-joshi.vercel.app](https://yash-joshi.vercel.app/)
 - **LinkedIn:** [Yash Joshi](https://www.linkedin.com/in/yash-joshi-073290251/)
 - **GitHub:** [@yashjoshi08](https://github.com/yashjoshi08)
