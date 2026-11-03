@@ -1,8 +1,8 @@
 # Yash Joshi
 
 <p align="center">
-  <strong>DevOps Engineer | AWS Cloud | Kubernetes | Infrastructure Automation</strong><br/>
-  Pune, India · Open to DevOps and Cloud Engineering opportunities
+  <strong>DevOps Engineer | AWS | Kubernetes | CI/CD | Infrastructure as Code</strong><br/>
+  Pune, Maharashtra, India · Open to DevOps and Cloud Engineering opportunities
 </p>
 
 <p align="center">
@@ -13,71 +13,100 @@
 
 ---
 
-## About
+## Professional profile
 
-DevOps Engineer with 3+ years of experience focused on AWS infrastructure, Kubernetes, CI/CD automation, Infrastructure as Code, and cloud operations.
+DevOps Engineer with **3+ years of hands-on experience** building and operating AWS cloud infrastructure, Kubernetes (EKS) platforms, and automated CI/CD and GitOps workflows.
 
-I enjoy turning manual infrastructure and deployment tasks into repeatable workflows, improving release reliability, and making systems easier to observe and maintain.
+Experienced in owning deployment pipelines, provisioning infrastructure with Terraform, containerizing microservices, improving observability, and supporting production environments. Focused on secure, repeatable deployments, infrastructure reliability, and reducing operational overhead.
 
-- AWS: EC2, VPC, IAM, S3, RDS, EKS, ECR, ALB and CloudWatch
-- Infrastructure as Code: Terraform and Ansible
-- CI/CD: Jenkins and GitHub Actions
-- Containers: Docker, Kubernetes, Amazon EKS and Helm
-- GitOps: Argo CD
-- DevSecOps: SonarQube, Trivy and OWASP Dependency-Check
-- Observability: Prometheus, Grafana and CloudWatch
-- Scripting: Python, Bash and Linux
+## Engineering impact
 
-## Technology
+| Area | Outcome |
+|---|---:|
+| Release cycles | 40% faster |
+| Infrastructure provisioning | 60% faster |
+| Application availability | 99.5%+ uptime |
+| Mean time to detect (MTTD) | 35% reduction |
+| Manual operational effort | 50% reduction |
+| Cloud spend | 20% reduction |
 
-<p>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900" alt="AWS"/>
-  <img src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
-  <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="Ansible"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="Argo CD"/>
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus"/>
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
-</p>
+## Core expertise
 
-## Featured projects
+**Cloud & infrastructure**  
+AWS (EC2, VPC, IAM, S3, RDS, DynamoDB, Lambda, EKS, ECR, ALB, Route 53, Auto Scaling, CloudWatch), Terraform, Ansible, CloudFormation
 
-### Secure CI/CD and blue-green deployment on AWS ECS
-[aws-ecs-bluegreen-cicd](https://github.com/yashjoshi08/aws-ecs-bluegreen-cicd)
+**Containers & orchestration**  
+Docker, Kubernetes, Amazon EKS, Helm, microservices deployments, rolling updates
 
-GitHub Actions workflow for tests and security checks, OIDC-based AWS authentication, Terraform infrastructure, Amazon ECR, ECS Fargate and CodeDeploy blue-green deployment.
+**CI/CD & GitOps**  
+Jenkins, GitHub Actions, Argo CD, release automation, pipeline design, automated rollback
 
-### Kubernetes hands-on lab
-[kubestarter](https://github.com/yashjoshi08/kubestarter)
+**DevSecOps**  
+SonarQube, Trivy, OWASP Dependency-Check, IAM least privilege, secrets management
 
-Kubernetes examples and notes covering Deployments, Services, storage, RBAC, Ingress, autoscaling, Helm, deployment strategies, Minikube, KIND and EKS.
+**Observability & operations**  
+Prometheus, Grafana, CloudWatch, alerting, log analysis, incident response, root cause analysis, production support
+
+**Scripting & systems**  
+Python, Bash, Linux, Git, MySQL
+
+## Selected projects
+
+### Secure CI/CD to AWS ECS Fargate with blue-green deployments
+[View repository](https://github.com/yashjoshi08/aws-ecs-bluegreen-cicd)
+
+- Built a GitHub Actions workflow for automated tests, Bandit, pip-audit and Trivy image scanning.
+- Configured GitHub OIDC authentication to AWS, avoiding long-lived access keys and restricting the trust policy to the intended repository branch.
+- Provisioned VPC, ALB, ECS, ECR, IAM and CodeDeploy resources with Terraform.
+- Configured ECS blue-green deployments using AWS CodeDeploy.
+
+**Stack:** AWS · ECS Fargate · ECR · CodeDeploy · Terraform · GitHub Actions · Docker · Trivy
+
+### End-to-end CI/CD and Kubernetes deployment
+[View repository](https://github.com/yashjoshi08/devops-demo-app)
+
+- Built a Jenkins pipeline for source checkout, application tests and Docker image creation.
+- Published versioned container images to Amazon ECR.
+- Automated deployment to Amazon EKS and verified rollout status with kubectl.
+
+**Stack:** Jenkins · Docker · Amazon ECR · Amazon EKS · Kubernetes · Node.js
+
+### Kubernetes implementation reference
+[View repository](https://github.com/yashjoshi08/kubestarter)
+
+- Maintained practical Kubernetes manifests and implementation notes.
+- Covered Deployments, Services, ConfigMaps, Secrets, persistent storage, RBAC and Ingress.
+- Included Helm, autoscaling, scheduling constraints, and rolling, blue-green and canary deployment examples.
+- Documented local cluster and Amazon EKS setup approaches.
+
+**Stack:** Kubernetes · Helm · YAML · Minikube · KIND · Amazon EKS
 
 ### Jenkins shared library
-[Jenkins_SharedLib](https://github.com/yashjoshi08/Jenkins_SharedLib)
+[View repository](https://github.com/yashjoshi08/Jenkins_SharedLib)
 
-Reusable Jenkins Pipeline steps for Docker workflows, SonarQube analysis, OWASP Dependency-Check and Trivy scanning.
+- Organized reusable Jenkins pipeline steps using the `vars/` shared-library structure.
+- Included helpers for Docker workflows, SonarQube analysis, OWASP Dependency-Check and Trivy scanning.
+- Documented library configuration and pipeline usage.
 
-### Containerized app delivery to EKS
-[devops-demo-app](https://github.com/yashjoshi08/devops-demo-app)
+**Stack:** Jenkins · Groovy · Docker · SonarQube · OWASP · Trivy
 
-Node.js demo application with tests, Dockerfile, Jenkins pipeline, Amazon ECR publishing and Kubernetes deployment manifest.
+## Professional experience
 
-## Currently learning
+**DevOps Engineer | TTC Holidays**  
+Pune, Maharashtra · July 2023 – July 2026
 
-- AWS architecture, cloud security and cost-aware infrastructure
-- Kubernetes operations and workload reliability
-- Secure CI/CD and GitOps delivery patterns
-- Monitoring, alerting and incident troubleshooting
+- Supported AWS infrastructure and application operations across EC2, Lambda and RDS, using CloudWatch, Prometheus and Grafana for monitoring and alerting.
+- Built and maintained Jenkins CI/CD pipelines and GitOps-based deployment workflows for containerized applications on Amazon EKS.
+- Provisioned and managed AWS infrastructure using reusable Terraform modules and Ansible automation across development, pre-production and production environments.
+- Automated deployment workflows, environment health checks and operational tasks using Python and Bash.
+- Improved cloud security and cost efficiency through IAM least-privilege practices, secrets management and compute right-sizing.
 
-**Certification:** AWS Certified Solutions Architect – Associate (in progress)
+## Connect
 
----
+- Portfolio: [yash-joshi.vercel.app](https://yash-joshi.vercel.app/)
+- LinkedIn: [Yash Joshi](https://www.linkedin.com/in/yash-joshi-073290251/)
+- GitHub: [@yashjoshi08](https://github.com/yashjoshi08)
 
 <p align="center">
-  <sub>Automate the repeatable. Observe the important. Improve continuously.</sub>
+  <sub>Automate delivery. Strengthen reliability. Keep improving.</sub>
 </p>
