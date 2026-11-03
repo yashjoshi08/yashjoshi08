@@ -1,112 +1,161 @@
-# Yash Joshi
+<div align="center">
 
-<p align="center">
-  <strong>DevOps Engineer | AWS | Kubernetes | CI/CD | Infrastructure as Code</strong><br/>
-  Pune, Maharashtra, India · Open to DevOps and Cloud Engineering opportunities
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:080D18,45:12324A,100:0D9488&text=YASH%20JOSHI&fontSize=54&fontColor=F8FAFC&fontAlignY=38&desc=DEVOPS%20ENGINEER%20%20%7C%20%20AWS%20CLOUD%20%20%7C%20%20KUBERNETES&descSize=15&descAlignY=60&animation=fadeIn" width="100%" alt="Yash Joshi | DevOps Engineer" />
 
-<p align="center">
-  <a href="https://yash-joshi.vercel.app/">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/yash-joshi-073290251/">LinkedIn</a> ·
-  <a href="https://github.com/yashjoshi08">GitHub</a>
-</p>
+<a href="https://yash-joshi.vercel.app"><img src="https://img.shields.io/badge/Explore%20Portfolio-0D9488?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/yash-joshi-073290251/"><img src="https://img.shields.io/badge/Let's%20Connect-12324A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<img src="https://komarev.com/ghpvc/?username=yashjoshi08&style=for-the-badge&color=0D9488&label=PROFILE+VIEWS" alt="Profile views" />
+
+<br/>
+
+### I automate infrastructure, streamline deployments, and keep systems observable.
+
+`AWS` `Terraform` `Kubernetes` `CI/CD` `GitOps` `DevSecOps`
+
+</div>
 
 ---
 
-## Professional profile
+<table>
+<tr>
+<td width="58%" valign="top">
 
-DevOps Engineer with **3+ years of hands-on experience** building and operating AWS cloud infrastructure, Kubernetes (EKS) platforms, and automated CI/CD and GitOps workflows.
+### 👋 A little about me
 
-Experienced in owning deployment pipelines, provisioning infrastructure with Terraform, containerizing microservices, improving observability, and supporting production environments. Focused on secure, repeatable deployments, infrastructure reliability, and reducing operational overhead.
+I'm Yash, a DevOps Engineer with **3+ years in cloud and DevOps engineering**.
 
-## Engineering impact
+I enjoy working where infrastructure, automation and reliability meet: building repeatable AWS environments, improving delivery pipelines, and making Kubernetes workloads easier to operate.
 
-| Area | Outcome |
-|---|---:|
-| Release cycles | 40% faster |
-| Infrastructure provisioning | 60% faster |
-| Application availability | 99.5%+ uptime |
-| Mean time to detect (MTTD) | 35% reduction |
-| Manual operational effort | 50% reduction |
-| Cloud spend | 20% reduction |
+**My engineering interests**
+- Cloud infrastructure that is reproducible
+- CI/CD pipelines with security built in
+- Kubernetes platforms and GitOps workflows
+- Monitoring that helps teams act before users notice
 
-## Core expertise
+</td>
+<td width="42%" valign="top">
 
-**Cloud & infrastructure**  
-AWS (EC2, VPC, IAM, S3, RDS, DynamoDB, Lambda, EKS, ECR, ALB, Route 53, Auto Scaling, CloudWatch), Terraform, Ansible, CloudFormation
+### ⚡ My focus
 
-**Containers & orchestration**  
-Docker, Kubernetes, Amazon EKS, Helm, microservices deployments, rolling updates
+| | |
+|:--|:--|
+| ☁️ | AWS Cloud |
+| 🏗️ | Infrastructure as Code |
+| 🚀 | CI/CD Automation |
+| 📦 | Containers & Kubernetes |
+| 🔐 | DevSecOps |
+| 📈 | Observability |
 
-**CI/CD & GitOps**  
-Jenkins, GitHub Actions, Argo CD, release automation, pipeline design, automated rollback
+</td>
+</tr>
+</table>
 
-**DevSecOps**  
-SonarQube, Trivy, OWASP Dependency-Check, IAM least privilege, secrets management
-
-**Observability & operations**  
-Prometheus, Grafana, CloudWatch, alerting, log analysis, incident response, root cause analysis, production support
-
-**Scripting & systems**  
-Python, Bash, Linux, Git, MySQL
-
-## Selected projects
-
-### Secure CI/CD to AWS ECS Fargate with blue-green deployments
-[View repository](https://github.com/yashjoshi08/aws-ecs-bluegreen-cicd)
-
-- Built a GitHub Actions workflow for automated tests, Bandit, pip-audit and Trivy image scanning.
-- Configured GitHub OIDC authentication to AWS, avoiding long-lived access keys and restricting the trust policy to the intended repository branch.
-- Provisioned VPC, ALB, ECS, ECR, IAM and CodeDeploy resources with Terraform.
-- Configured ECS blue-green deployments using AWS CodeDeploy.
-
-**Stack:** AWS · ECS Fargate · ECR · CodeDeploy · Terraform · GitHub Actions · Docker · Trivy
-
-### End-to-end CI/CD and Kubernetes deployment
-[View repository](https://github.com/yashjoshi08/devops-demo-app)
-
-- Built a Jenkins pipeline for source checkout, application tests and Docker image creation.
-- Published versioned container images to Amazon ECR.
-- Automated deployment to Amazon EKS and verified rollout status with kubectl.
-
-**Stack:** Jenkins · Docker · Amazon ECR · Amazon EKS · Kubernetes · Node.js
-
-### Kubernetes implementation reference
-[View repository](https://github.com/yashjoshi08/kubestarter)
-
-- Maintained practical Kubernetes manifests and implementation notes.
-- Covered Deployments, Services, ConfigMaps, Secrets, persistent storage, RBAC and Ingress.
-- Included Helm, autoscaling, scheduling constraints, and rolling, blue-green and canary deployment examples.
-- Documented local cluster and Amazon EKS setup approaches.
-
-**Stack:** Kubernetes · Helm · YAML · Minikube · KIND · Amazon EKS
-
-### Jenkins shared library
-[View repository](https://github.com/yashjoshi08/Jenkins_SharedLib)
-
-- Organized reusable Jenkins pipeline steps using the `vars/` shared-library structure.
-- Included helpers for Docker workflows, SonarQube analysis, OWASP Dependency-Check and Trivy scanning.
-- Documented library configuration and pipeline usage.
-
-**Stack:** Jenkins · Groovy · Docker · SonarQube · OWASP · Trivy
-
-## Professional experience
-
-**DevOps Engineer | TTC Holidays**  
-Pune, Maharashtra · July 2023 – July 2026
-
-- Supported AWS infrastructure and application operations across EC2, Lambda and RDS, using CloudWatch, Prometheus and Grafana for monitoring and alerting.
-- Built and maintained Jenkins CI/CD pipelines and GitOps-based deployment workflows for containerized applications on Amazon EKS.
-- Provisioned and managed AWS infrastructure using reusable Terraform modules and Ansible automation across development, pre-production and production environments.
-- Automated deployment workflows, environment health checks and operational tasks using Python and Bash.
-- Improved cloud security and cost efficiency through IAM least-privilege practices, secrets management and compute right-sizing.
-
-## Connect
-
-- Portfolio: [yash-joshi.vercel.app](https://yash-joshi.vercel.app/)
-- LinkedIn: [Yash Joshi](https://www.linkedin.com/in/yash-joshi-073290251/)
-- GitHub: [@yashjoshi08](https://github.com/yashjoshi08)
+## 🧰 The toolkit
 
 <p align="center">
-  <sub>Automate delivery. Strengthen reliability. Keep improving.</sub>
+  <img src="https://skillicons.dev/icons?i=aws,terraform,ansible,docker,kubernetes,jenkins,githubactions,git,prometheus,grafana,linux,python,bash&perline=7" alt="AWS, Terraform, Ansible, Docker, Kubernetes, Jenkins, GitHub Actions, Git, Prometheus, Grafana, Linux, Python and Bash" />
 </p>
+
+<p align="center">
+  <sub>Cloud · IaC · Containers · Delivery · Security · Observability</sub>
+</p>
+
+## 🚀 Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ☁️ Secure AWS delivery
+
+**[ECS Blue-Green CI/CD ↗](https://github.com/yashjoshi08/aws-ecs-bluegreen-cicd)**
+
+A secure delivery path for a containerized application, from commit to ECS deployment.
+
+- GitHub Actions and automated checks
+- OIDC authentication to AWS
+- Terraform-managed infrastructure
+- ECS Fargate and CodeDeploy blue-green releases
+
+`AWS` `Terraform` `GitHub Actions` `ECS`
+
+</td>
+<td width="50%" valign="top">
+
+### ☸️ Kubernetes in practice
+
+**[KubeStarter ↗](https://github.com/yashjoshi08/kubestarter)**
+
+A practical collection of Kubernetes configurations and implementation references.
+
+- Workloads, networking and storage
+- RBAC, Ingress and autoscaling
+- Helm and deployment strategies
+- Cluster setup and EKS notes
+
+`Kubernetes` `Helm` `YAML` `EKS`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔁 Reusable pipeline engineering
+
+**[Jenkins Shared Library ↗](https://github.com/yashjoshi08/Jenkins_SharedLib)**
+
+Reusable pipeline steps that keep common delivery tasks consistent.
+
+- Docker build, push and cleanup
+- SonarQube analysis
+- OWASP dependency checks
+- Trivy image scanning
+
+`Jenkins` `Groovy` `Docker` `DevSecOps`
+
+</td>
+<td width="50%" valign="top">
+
+### 📦 Container to cluster
+
+**[DevOps Demo App ↗](https://github.com/yashjoshi08/devops-demo-app)**
+
+A small application used to demonstrate an automated container delivery workflow.
+
+- Node.js app and automated tests
+- Docker image build
+- Amazon ECR publishing
+- Kubernetes deployment to EKS
+
+`Node.js` `Docker` `Jenkins` `EKS`
+
+</td>
+</tr>
+</table>
+
+## 📊 GitHub activity
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=yashjoshi08&show_icons=true&hide_border=true&bg_color=0D1117&title_color=2DD4BF&icon_color=2DD4BF&text_color=C9D1D9&rank_icon=github" alt="GitHub stats" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashjoshi08&layout=compact&hide_border=true&bg_color=0D1117&title_color=2DD4BF&text_color=C9D1D9" alt="Top languages" />
+
+<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=yashjoshi08&bg_color=0D1117&color=C9D1D9&line=0D9488&point=2DD4BF&area=true&hide_border=true" alt="Contribution activity graph" />
+
+</div>
+
+## 🤝 Find me around the web
+
+<div align="center">
+
+<a href="https://yash-joshi.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0D9488?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/yash-joshi-073290251/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://github.com/yashjoshi08"><img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+
+<br/><br/>
+
+<sub>Build it. Automate it. Monitor it. Make it better.</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:0D9488,100:080D18&section=footer" width="100%" alt="" />
+
+</div>
