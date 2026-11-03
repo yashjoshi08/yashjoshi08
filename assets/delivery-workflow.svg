@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+<title id="title">DevOps delivery workflow</title>
+<desc id="desc">A conceptual workflow from source control through CI, security scanning, container registry, Kubernetes deployment and observability.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0B1220"/><stop offset="1" stop-color="#102E3A"/></linearGradient>
+ <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#5EEAD4" stroke-width="1.2"/></marker>
+</defs>
+<rect width="1200" height="220" rx="18" fill="url(#bg)"/>
+<text x="48" y="42" fill="#E2E8F0" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="2">DELIVERY WORKFLOW</text>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+ <g><rect x="40" y="82" width="145" height="82" rx="12" fill="#17283B" stroke="#2DD4BF"/><text x="112" y="116" fill="#F8FAFC" font-size="16" font-weight="700">SOURCE</text><text x="112" y="140" fill="#94A3B8" font-size="12">Git / GitHub</text></g>
+ <g><rect x="245" y="82" width="145" height="82" rx="12" fill="#17283B" stroke="#2DD4BF"/><text x="317" y="116" fill="#F8FAFC" font-size="16" font-weight="700">CI PIPELINE</text><text x="317" y="140" fill="#94A3B8" font-size="12">Jenkins / Actions</text></g>
+ <g><rect x="450" y="82" width="145" height="82" rx="12" fill="#17283B" stroke="#2DD4BF"/><text x="522" y="116" fill="#F8FAFC" font-size="16" font-weight="700">SECURITY</text><text x="522" y="140" fill="#94A3B8" font-size="12">Quality / scans</text></g>
+ <g><rect x="655" y="82" width="145" height="82" rx="12" fill="#17283B" stroke="#2DD4BF"/><text x="727" y="116" fill="#F8FAFC" font-size="16" font-weight="700">REGISTRY</text><text x="727" y="140" fill="#94A3B8" font-size="12">Docker / ECR</text></g>
+ <g><rect x="860" y="82" width="145" height="82" rx="12" fill="#17283B" stroke="#2DD4BF"/><text x="932" y="116" fill="#F8FAFC" font-size="16" font-weight="700">DEPLOY</text><text x="932" y="140" fill="#94A3B8" font-size="12">EKS / Argo CD</text></g>
+ <g><rect x="1065" y="82" width="100" height="82" rx="12" fill="#123C3C" stroke="#5EEAD4"/><text x="1115" y="116" fill="#F8FAFC" font-size="15" font-weight="700">OBSERVE</text><text x="1115" y="140" fill="#99F6E4" font-size="11">Metrics</text></g>
+</g>
+<g stroke="#5EEAD4" stroke-width="2" fill="none" marker-end="url(#arrow)"><path d="M185 123H237"/><path d="M390 123H442"/><path d="M595 123H647"/><path d="M800 123H852"/><path d="M1005 123H1057"/></g>
+</svg>
