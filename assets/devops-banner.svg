@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Yash Joshi — DevOps Engineer</title>
+<desc id="desc">Dark navy and teal abstract cloud infrastructure network banner.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B14"/><stop offset=".55" stop-color="#10283D"/><stop offset="1" stop-color="#087F78"/></linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2DD4BF" stop-opacity="0"/><stop offset="1" stop-color="#2DD4BF" stop-opacity=".45"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#A7F3D0" stroke-opacity=".08" stroke-width="1"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+</defs>
+<rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="300" rx="22" fill="url(#grid)"/>
+<ellipse cx="1000" cy="130" rx="210" ry="120" fill="#14B8A6" opacity=".18" filter="url(#blur)"/>
+<path d="M690 70H810L870 130H1010M750 220H880L940 160H1110M860 70L930 20M1000 240L1080 180" fill="none" stroke="url(#glow)" stroke-width="2"/>
+<g fill="#2DD4BF"><circle cx="690" cy="70" r="5"/><circle cx="810" cy="70" r="5"/><circle cx="870" cy="130" r="5"/><circle cx="1010" cy="130" r="5"/><circle cx="750" cy="220" r="5"/><circle cx="880" cy="220" r="5"/><circle cx="940" cy="160" r="5"/><circle cx="1110" cy="160" r="5"/></g>
+<g transform="translate(890 72)" fill="none" stroke="#99F6E4" stroke-width="2" opacity=".8"><path d="M0 35c0-13 10-23 23-23 7-17 33-18 42 0 15-3 27 8 27 22 0 12-9 21-22 21H22C9 55 0 47 0 35Z"/><path d="M46 55v26m-14-13 14 13 14-13"/></g>
+<text x="76" y="126" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700" letter-spacing="2">YASH JOSHI</text>
+<text x="80" y="170" fill="#99F6E4" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="600" letter-spacing="3">DEVOPS ENGINEER</text>
+<text x="80" y="211" fill="#CBD5E1" font-family="Arial,Helvetica,sans-serif" font-size="17">AWS CLOUD  ·  KUBERNETES  ·  CI/CD  ·  INFRASTRUCTURE AS CODE</text>
+<rect x="80" y="238" width="180" height="3" rx="2" fill="#2DD4BF"/>
+</svg>
